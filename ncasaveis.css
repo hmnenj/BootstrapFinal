@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Stardew';
+    src: url(Stardew_Valley.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background: url('./img/stardewbackground.png') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p {
+    text-align: center;
+    font-family: 'Stardew';
+    font-size: 60px;
+    color: white;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'Stardew';
+    text-align: center;
+    color: #6B3710;
+    font-size: 25px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container-fluid {
+    background-color: #3160c9;
+    font-family: 'Stardew';
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.character {
+    font-family: 'Stardew';
+    text-align: center;
+    background-color: #eaab63;
+    color: #6B3710;
+    padding: 20px;
+    margin: 5px;
+    width: 350px;
+    border: 10px solid #5c2c2b;
+
+}
+
+.name {
+    font-family: 'Stardew';
+    text-align: center;
+    color: #6B3710;
+    font-size: 25px;
+}

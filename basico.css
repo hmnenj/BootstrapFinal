@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Stardew';
+    src: url(Stardew_Valley.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    background: url('./img/stardewbackground.png') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h6{
+    text-align: center;
+    display: table-cell;
+    float: left;
+}
+
+p{
+    text-align: center;
+    font-family: 'Stardew';
+    font-size: 60px ;
+    color: white;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container-fluid {
+    background-color: #3160c9;
+    font-family: 'Stardew';
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.basic {
+    background-color: #eaab63;
+    color: #6B3710;
+    padding: 20px;
+    margin: 5px;
+    width: 350px;
+    font-family: 'Stardew';
+    border: 5px solid #5c2c2b;
+}
+
+.perso{
+    margin-top: 25px;
+    width: 300px;
+    height: 307px;
+}
+
+.ald{
+    width: 300px;
+    height: 224px;
+}
+
+.inven{
+    width: 300px;
+    height: 160px;
+}
+
+.habil{
+    width: 300px;
+    height: 156px;
+}
+
+.health{
+    margin-left: 100px;
+}
+
+.name{
+    font-family: 'Stardew';
+    text-align: center;
+    color: #6B3710;
+    font-size: 25px;
+}
